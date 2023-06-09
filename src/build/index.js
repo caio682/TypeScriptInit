@@ -1,9 +1,14 @@
 "use strict";
-function printaObjeto(pessoa) {
-    console.log(pessoa);
-}
-printaObjeto({
+// type heroi =  {
+//     name: string;
+//     vulgo: string;
+const bot1 = {
+    id: 1,
     name: "Caio",
-    vulgo: "Irede"
-});
-console.log("olá mundo");
+};
+const bot2 = {
+    id: 1,
+    name: "Caio",
+};
+console.log(bot1);
+console.log(bot2);
